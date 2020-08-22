@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&family=Oswald:wght@200;500&family=Roboto+Mono:ital,wght@1,300&family=Teko:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+}
+
+
+
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:black;
+    /* opacity: 0.3; */
+    height: 10vh;
+    width: 100%;
+    color: white;
+}
+
+.head{
+    width: 18rem;
+    text-align: center;
+}
+
+.listHolder{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.listHolder li {
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.listHolder li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.container{
+    height: 90vh;
+    width: 100vw;
+    background: url("img1.jpg") center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.container h1{
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.9);
+}
+
+
+.container h1:nth-child(1){
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.09rem;
+    font-size: 2rem;
+}
+.container h1:nth-child(2){
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.09rem;
+    font-weight: 500;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 12rem;
+}
+.btn1{
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    background: rgb(24, 129, 112);
+    outline: none; 
+    font-family: 'Bangers', cursive;
+    font-size: 1rem;
+}
+.btn2{
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    font-family: 'Bangers', cursive;
+    outline: none; 
+    font-size: 1rem;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.CardHolder{
+    height: 90vh;
+    font-size: 1rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("img4.jpg");
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0,0,0,0.9);
+
+}
+
+.card_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+    background: #dad7d7;
+    height: 10rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 1rem;
+    border-radius: 1rem;
+
+}
+
+.card_head{
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    text-shadow: none;
+}
+
+.card_img{
+    height: 9.6rem;
+    width: 9.6rem;
+    border-radius: 1rem;
+}
+
+
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+.Input{
+    width: 50%;
+    padding: 0.7rem;
+    margin: 1rem;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.About{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    background: url("img2.jpg") center center/cover;
+}
+.About_head{
+    font-family: 'Oswald', sans-serif; 
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    border-bottom: 1px solid #868686;
+    width: 5rem;
+    color: white;
+    text-align: center;
+}
+
+.box{
+    width: 41rem;
+    font-family: 'Oswald', sans-serif; 
+    text-shadow: 0.2rem 0.2rem 0.5rem rgba(0,0,0,0.9);
+    color: white;
+    margin-top: 1.3rem;
+    font-size: 1.6rem;
+}
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+.All{
+    background: url("img5.jpg") center center/cover;
+}
+
+input,textarea{
+    background: #fff;
+    border: none;
+    outline: none;
+    opacity: 0.9;
+    border-radius: 2rem;
+}
+
+
+input::placeholder{
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.9);
+    font-size: 1.4rem;
+}
+
+
+textarea::placeholder{
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.1rem rgba(0,0,0,0.9);
+    font-size: 1.4rem;
+}
